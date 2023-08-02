@@ -32,7 +32,7 @@ const getData = async(message,count) =>{
     //API CALL
    
 
-        await fetch("http://localhost:5000/api", {
+        await fetch("https://nn-backend.onrender.com/api", {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
