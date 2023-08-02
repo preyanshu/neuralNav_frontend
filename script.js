@@ -30,7 +30,7 @@ const host = "http://localhost"
 const getData = async(message,count) =>{
 
     //API CALL
-   
+       console.log("fetching")
 
         await fetch("https://nn-backend.onrender.com/api", {
             method: 'POST',
